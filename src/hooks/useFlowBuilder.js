@@ -10,6 +10,7 @@ import {
   addNewFloatNode,
   addNewNode,
 } from "../flowbuilder/Utils";
+import InputNode from "../flowbuilder/InputNode";
 import StepNode from "../flowbuilder/StepNode";
 import ConditionNode from "../flowbuilder/ConditionNode";
 import StartNode from "../flowbuilder/StartNode";
@@ -32,6 +33,7 @@ function useFlowBuilder() {
 
   const nodeTypes = useMemo(
     () => ({
+      InputNode: InputNode,
       StepNode: StepNode,
       Condition: ConditionNode,
       startNode: StartNode,
