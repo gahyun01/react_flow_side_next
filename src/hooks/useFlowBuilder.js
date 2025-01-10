@@ -15,10 +15,12 @@ import StepNode from "../flowbuilder/StepNode";
 import ConditionNode from "../flowbuilder/ConditionNode";
 import StartNode from "../flowbuilder/StartNode";
 import EndNode from "../flowbuilder/EndNode";
-import FloatNode from "../flowbuilder/FloatNode";
 import BridgeEdge from "../flowbuilder/BridgeEdge";
 import CustomEdge from "../flowbuilder/CustomEdge";
+
+// 제거
 import BlankNode from "@/flowbuilder/BlankNode";
+import FloatNode from "../flowbuilder/FloatNode";
 
 function useFlowBuilder() {
   const { setNodes, setEdges, getNodes, getNode, getEdges } = useReactFlow();

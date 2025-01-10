@@ -105,6 +105,7 @@ const SideBar = ({ sideBarOpen, currentSideData, setOpenSidebar }) => {
     name: "conditions",  // 조건 배열을 위한 필드
   });
 
+  console.log(fields)
   // 폼 제출 처리
   const onSubmit = async (data) => {
     if (currentSideData.source) {

@@ -46,18 +46,6 @@ export const nodeTypeStage = [
     label: "End the process",
     type: "EndNode",
     stepType: "email",
-  },
-  {
-    id: 4,
-    label: "Email",
-    type: "StepNode",
-    stepType: "email",
-  },
-  {
-    id: 5,
-    label: "SNS",
-    type: "StepNode",
-    stepType: "sns",
   }
 ];
 
